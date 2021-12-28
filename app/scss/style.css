@@ -578,6 +578,16 @@ button:hover, .button:hover {
 .article__item {
   border-radius: 0.3125rem;
   overflow: hidden;
+  -webkit-box-shadow: 0rem 3px 12px rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 3px 12px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.article__item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .article__image {
@@ -588,7 +598,6 @@ button:hover, .button:hover {
 }
 
 .article__text {
-  background-color: white;
   padding: 1.875rem 1.875rem 2.5rem 1.875rem;
   color: #9698a6;
 }
